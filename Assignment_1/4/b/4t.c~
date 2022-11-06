@@ -1,0 +1,17 @@
+/*
+ * 4t.c
+ *
+ * Created: 10/28/2022 11:49:08 PM
+ * Author: LENOVO
+ */
+
+#include <io.h>
+
+void main(void)
+{
+while (1)
+    {
+    // Please write your application code here
+
+    }
+}

@@ -1,0 +1,13 @@
+#include <mega32.h>
+#include <delay.h>
+#include <stdlib.h>
+void main(void)
+{
+char i;
+DDRA = 0xff;
+for(i = 0 ; i < 200 ; i++){
+    PORTA = rand();
+    delay_ms(1000);
+
+    }
+}
